@@ -54,5 +54,10 @@ public class MemberData {
 		return ar;
 	}
 	
+	public void addMember(ArrayList<MemberDTO>ar) {
+		//새로추가할 MemberDTO생성
+		//키보드로부터 id,pw,name,email,age 입력받음
+		//MemberDTO의 멤버변수값으로 대입
+	}
 	
 }
