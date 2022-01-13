@@ -1,12 +1,16 @@
 package com.sj.s1.util.collection;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class ListStudy {
 	
-	public void study4() {
-		ArrayList <Integer> ar = new ArrayList<>();
-		
+	public List<String> study4() {
+		LinkedList<String> list = new LinkedList<>();
+		list.add("1");
+		list.add("2");
+		return list;
 	}
 	
 	public void study3() {

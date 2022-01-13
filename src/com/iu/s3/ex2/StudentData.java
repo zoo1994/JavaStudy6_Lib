@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-import com.iu.s3.ex1.MemberDTO;
+import com.iu.s3.ex1.member.MemberDTO;
 
 public class StudentData {
 	
@@ -58,17 +58,18 @@ public class StudentData {
 		al.add(st);
 	}
 	
-	public void removest(ArrayList <StudentDTO> al) {
+	public StudentDTO removest(ArrayList <StudentDTO> al) {
+		StudentDTO st = null;
 		System.out.println("삭제하고 싶은 학생의 번호를 입력하세요");
 		int a = sc.nextInt();
 		for(int i=0;i<al.size();i++) {
 			if(al.get(i).getNum()==a) {
-				al.remove(i);
+				st = al.remove(i);
 				break;
 			}
 			
 		}
-		
+		return st;
 	}
 	
 }
