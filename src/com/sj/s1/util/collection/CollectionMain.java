@@ -5,7 +5,7 @@ public class CollectionMain {
 	public static void main(String[] args) {
 		ListStudy ls = new ListStudy();
 		
-		new SetStudy().Study2();
+		
 		
 	
 //		new SetStudy().Study4();

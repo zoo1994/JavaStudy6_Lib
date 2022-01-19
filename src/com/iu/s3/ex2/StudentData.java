@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-import com.iu.s3.ex1.member.MemberDTO;
+
 
 public class StudentData {
 	
